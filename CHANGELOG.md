@@ -31,6 +31,7 @@ All notable changes to this project will be documented in this file. Changes not
 - Update `SwifterTestsHttpParser` with a test for parsing bracketed query strings. ([#423](https://github.com/httpswift/swifter/pull/423)) by [@nejcvivod](https://github.com/nejcvivod)
 - Use `swift_version` CocoaPods DSL. ([#425](https://github.com/httpswift/swifter/pull/425)) by [@dnkoutso](https://github.com/dnkoutso)
 - Fix compiler warnings in Socket+File.swift for iOS, tvOS, and Linux platforms by using `withUnsafeBytes` rather than `&` to get a scoped UnsafeRawPointer.
+- Replace CircleCI for continuous integration in favor of Github Actions. ([#446](https://github.com/httpswift/swifter/pull/446)) by [@Vkt0r](https://github.com/Vkt0r)
 
 # [1.4.7] 
 
